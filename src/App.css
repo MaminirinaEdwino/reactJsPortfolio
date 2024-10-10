@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  scroll-behavior: smooth;
+}
+@keyframes animation_react {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.react{
+  display: flex;
+  justify-content: center;
+
+  animation: animation_react 5s infinite linear;
+}
+body {
+  background: rgb(0, 0, 0) fixed center;
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(58, 58, 152, 1) 68%, rgba(0, 212, 255, 1) 100%);
+  animation-timing-function: ease-out;
+  
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+header {
+  position: sticky;
+  margin-top: 2rem;
+  top: 0px;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  background: rgb(0, 0, 0);
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(15, 15, 180, 1) 68%, rgba(0, 212, 255, 1) 100%);
+  height: 3rem;
+  align-items: center;
+  padding: .5rem;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  width: 50%;
+  padding: .2rem;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(15, 15, 180, 1) 63%, rgba(0, 212, 255, 1) 93%);
+  border-radius: .5rem;
+
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+#degree{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+#degree > h1{
+  width: 90%;
+  text-align: center;
+  height: fit-content;
+  font-size: 40px;
+}
+#degree article{
+  padding-top: 1rem;
+  border: 1px solid white; 
+  border-radius: 1rem;
+  max-width: 30%; 
+  max-height: 250px;
+  min-height: 200px;
+  text-align: center;
+}
+#degree > article >h1{
+
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#techno{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#techno > h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+#techno > article{
+  min-width: 25%;
+  text-align: center;
+}
+#techno div{
+  font-size: 6rem;
+  text-align: center;
+}
+#project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#project > h1{
+  font-size: 40px;
+}
+
+#qualities{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#qualities h1{
+  font-size: 40px;
+}
+#qualities > div{
+  padding: 2rem;
+}
+
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact > h1{
+  font-size: 40px;
+}
+.contact_type{
+  font-weight: bold;
+}
