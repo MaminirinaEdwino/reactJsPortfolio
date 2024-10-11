@@ -5,7 +5,7 @@ export default function Welcome() {
         <section id='home'>
             <div>
             <h1>Welcome to my page</h1>
-            <h3>I'm Edwino </h3>
+            <h3>I'm RAFITOARISOA Maminirina Edwino </h3>
             <h3>Web and game developper</h3>
             </div>
             <img src={photo} alt="" />
